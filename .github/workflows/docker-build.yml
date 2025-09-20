@@ -1,4 +1,4 @@
-ame: Build and Push Docker image
+name: Build and Push Docker image
 
 on:
   push:
@@ -23,3 +23,4 @@ jobs:
         with:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/n8n-custom:latest
+
